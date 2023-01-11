@@ -11,4 +11,4 @@ def solution(t, p):
   
   return answer
 
-print(solution("500220839878", '7'))
+print(solution("50022083987", '7'))
