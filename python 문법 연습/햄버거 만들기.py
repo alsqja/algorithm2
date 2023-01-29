@@ -8,3 +8,5 @@ def solution(ingredient):
             for _ in range(4):
                 s.pop()
     return cnt
+
+print(solution([2, 1, 1, 2, 3, 1, 2, 3, 1]))
