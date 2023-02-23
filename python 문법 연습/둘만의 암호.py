@@ -13,5 +13,4 @@ def solution(s, skip, index):
     shift_s = "".join([
         shift_alphabet(alphabet, index, alphabet_list) for alphabet in list(s)
     ])
-    
     return shift_s
