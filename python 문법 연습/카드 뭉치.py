@@ -7,6 +7,7 @@ def solution(cards1: list, cards2: list, goal: list):
             cards1.pop(0)
         elif cards2 and cards2[0] == str:
             cards2.pop(0)
+
         else:
             return "No"
 
